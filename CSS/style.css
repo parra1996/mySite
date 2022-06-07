@@ -16,7 +16,7 @@ body {
 
 .header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 
@@ -26,6 +26,45 @@ body {
     background-color: pink;
 }
 
+.boton_izq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 5em;
+    width: 50%;
+
+    background-color: blue;
+}
+
+.boton_der {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 5em;
+    width: 50%;
+
+    background-color: green;
+}
+
+.boton_trayectoria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 2em;
+    width: 4em;
+
+    border-radius: 3em;
+
+    margin-left: 1em;
+
+    background-color: yellow;
+}
 .centro {
     display: flex;
     flex-direction: column;
