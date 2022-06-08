@@ -35,7 +35,6 @@ body {
     height: 5em;
     width: 50%;
 
-    background-color: blue;
 }
 
 .boton_der {
@@ -71,11 +70,12 @@ body {
     justify-content: center;
     align-items: center;
 
-    height: 40em;
+    height: 42em;
     width: 100vw;
-   
 
-    background-color: lightblue;
+    background-image: url('/IMG/venezuela1.jpg');
+    background-size: cover;
+
 }
 
 .footer {
@@ -84,7 +84,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    height: 5em;
+    height: 3em;
     width: 100vw;
 
 
