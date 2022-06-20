@@ -12,3 +12,16 @@ body {
 
     background-color: gray;
 }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 5em;
+    width: 100vw;
+
+    background-color: pink;
+}
+
