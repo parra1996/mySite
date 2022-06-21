@@ -25,3 +25,216 @@ body {
     background-color: pink;
 }
 
+.boton_izq {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 5em;
+    width: 45%;
+
+}
+
+.boton_der {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 5em;
+    width: 55%;
+
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 42em;
+    width: 100vw;
+
+    background-image: url('/IMG/venezuela1.jpg');
+    background-size: cover;
+
+}
+
+.text1 {
+    background-color: rgba(0, 0, 0, 0.749);
+    padding-top: .2em;
+
+    height: 2em;
+    width: 20em;
+}
+
+.text2 {
+    background-color: rgba(0, 0, 0, 0.749);
+    padding-top: .2em;
+
+
+    height: 2em;
+    width: 20em;
+}
+
+
+.mensaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 30em;
+    width: 100vw;
+
+}
+
+.mensajito {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 5em;
+
+    height: 10em;
+    width: 100vw;
+
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: oblique;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+
+}
+
+.mensajito2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 10em;
+    width: 100vw;
+
+    text-align: center;
+    font-size: 2em;
+    font-style: oblique;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+.mensajito3 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 8em;
+
+    height: 10em;
+    width: 100vw;
+
+}
+
+.iconcitos {
+    padding: 1em;
+}
+
+
+#linkedin {
+    height: 3em;
+    width: 3em;
+
+    cursor: pointer;
+}
+
+#linkedin:hover {
+    height: 4em;
+    width: 4em;
+    transition: .5s;
+
+    cursor: pointer;
+}
+
+
+#github {
+    height: 3em;
+    width: 3em;
+
+    cursor: pointer;
+}
+#github:hover {
+    height: 4em;
+    width: 4em;
+    transition: .5s;
+
+    cursor: pointer;
+}
+
+#mail {
+    height: 3em;
+    width: 3em;
+
+    cursor: pointer;
+}
+
+#mail:hover {
+    height: 4em;
+    width: 4em;
+    transition: .5s;
+
+    cursor: pointer;
+}
+
+.phone {
+    font-size: 2em;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: .3em;
+
+    height: auto;
+}
+
+.phone:hover {
+    font-size: 2.3em;
+    background-color: whitesmoke;
+
+    transition: .3s;
+
+    border-radius: 3em;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: .3em;
+
+    height: auto;
+}
+
+
+.iconos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 8em;
+    width: 100vw;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 3em;
+    width: 100vw;
+
+
+    background-color: orange;
+}
+
